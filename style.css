@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    justify-content: center;
+ display: flex;
+    width: 90%;
+    gap: 9vw;
+    margin-left: 3vw;
+}
+nav>img{
+
+    height: 3vh;
+    margin-top: 3vh;    
+}
+nav>h4{
+    display: flex;
+    margin-left: -5vw;
+}
+nav>.nav-link>ul{
+    gap: 4vw;
+    display: flex;
+   list-style: none;
+}
+nav>.nav-link>ul>li{
+    font-family: Rubik;
+    font-weight: 700;
+    color: #4F5665;
+}
+nav>.nav-link>ul>li>a{
+    text-decoration: none;
+    color:#4F5665 ;
+}
+nav>.nav-link>ul>li>a:hover{
+    color: #FF5151;
+}
+nav>.side-logo>ul{
+display: flex;
+list-style: none;
+gap: 4vw;
+}
+
+main>.section-1{
+    margin-left: 3vw;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    justify-content: center;
+    gap: 10vw;
+    width: 94%;
+  display: flex;  
+  border: 1px ;
+  border-radius: 10px;
+}
+.section-1>.sec-cont>h1{
+font-family: Aclonica;
+font-size: 100px;
+}
+.section-1>.sec-cont{
+    margin-top: 10vh;
+    text-align: justify;
+line-height: 2.5vh;
+}
+.section-1>.sec-cont>button{
+    height: 7vh;
+    width: 9vw;
+    font-style: Roboto;
+    border: 1px;
+    border-radius: 5px;
+}
+.section-1>.sec-cont>button:hover{
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #FF5E3A 100%);
+    color: #FFFFFF;
+}
+.section-1>.sec-img>img{
+    width: 486px;
+}
+.section-2>.collection{
+    text-align: center;
+}
+.section-2>.collection>h3{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.section-2>.collection>h2{
+    font-family: Roboto;
+    font-size: 24px;
+}
+.section-2>.buttons>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4vw;
+}
+.section-2>.buttons>ul>li>button{
+    width: 7vw;
+    height: 6vh;
+    border: 1px;
+    border-radius: 5px;
+}
+.section-2>.buttons>ul>li>button:hover{
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #FF5E3A 100%);
+    color: #FFFFFF;
+
+}
+.section-2>.products>ul{
+display: flex;
+justify-content: center;
+list-style: none;
+}
+.section-2>.products>ul>li>img{
+    width: 25vw;
+    transition: ease-in-out;
+}
+.section-2>.products>ul>li>img:hover{
+    transform: scale(1.2);
+}
+.section-3>.heading-3{
+    font-family: Roboto;
+    text-align: center;
+}
+.section-3>.heading-3>h3{
+    font-size: 16px;
+}
+.section-3>.heading-3>h2{
+font-size: 24px;
+}
+.section-3>.latest-collection{
+    display: grid;
+    width: 90%;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-left: 3vw
+}
+.section-3>.latest-collection>.poster-1{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+}
+.section-3>.latest-collection>.poster-1>.postertext-1{
+    color: #FFFFFF;
+}
+
+.section-3>.latest-collection>.poster-2{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+.section-3>.latest-collection>.poster-2>.postertext-2{
+    position: relative;
+    bottom: 10vh;
+    left: 4vw;
+    line-height: 3.5vh;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+.section-3>.latest-collection>.poster-3{
+    grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.section-3>.latest-collection>.poster-3>.postertext-3{
+    position: relative;
+    color: #FFFFFF;
+    bottom: 10vh;
+    left: 4vw;
+    line-height: 3.5vh;
+    font-family: Roboto;
+}
+.section-4>.heading-4{
+    font-family: Roboto;
+    text-align: center;
+}
+.section-4>.heading-4>h3{
+    font-size: 16px;    
+}
+.section-4>.heading-4>h4{
+    font-size: 24px;
+}
+.section-4>.all-collections1>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2vw;
+}
+.section-4>.all-collections2>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4vw;
+}
+footer{
+    display: flex;
+    gap: 12.5vw;
+    width: 100%;
+    background: #FCCB9026;
+    font-family: Rubik;
+}
+footer>.footer-1{
+   margin-left: 4vw;
+}
+footer>.footer-1>.footer-1a{
+    display: flex;
+    gap: 1vw;
+}
+footer>.footer-1>.footer-1a>img{
+    height: 3vh;
+    margin-top: 3vh;
+}
+footer>.footer-1>.footer-1b{
+    line-height: 4vh;
+    font-family: Rubik;
+}
+footer>.footer-1>.footer-1c>ul{
+list-style: none;
+display: flex;
+margin-left: -4vw;
+}
+footer>.footer-2>ul{
+list-style: none;
+line-height: 6.5vh;
+}
+footer>.footer-3>ul{
+    list-style: none;
+    line-height: 6.5vh;
+ }
+ footer>.footer-4>ul{
+    list-style: none;
+    line-height: 6.5vh;
+ }
+ 
